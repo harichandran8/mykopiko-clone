@@ -1,0 +1,135 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: black !important; 
+    display: flex;
+  }
+
+
+  .container-fluid {
+    justify-content: center;
+  }
+
+ 
+  .navbar-brand, .nav-link {
+    color: rgb(255, 247, 247) !important; 
+  }
+
+  
+  .nav-link:hover {
+    color: #9b1e2c !important; 
+  }
+
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.nav-item{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.second-body{
+    display: flex;
+}
+
+.text-md{
+    width: auto;
+   
+    
+}
+.container{
+ width: 100px;
+}
+
+
+   .coffee-text {
+    max-width: 800px;
+    padding: 80px;
+    border-radius: 10px;
+}
+.back-text{
+    padding: 50px 20px;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.993);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+p {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 768px) {
+
+
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+}
+
+
+.third-section{
+
+width: 100%;
+position: relative;
+}
+
+.coffee-img, .fourth-img{
+    object-fit: contain;
+    width: 100%;
+}
+.text-inside-cofee{
+    position: absolute;
+    top:20%;
+    margin: 0 40px;
+}
+
+.fourth-section{
+    color: white;
+    position: relative;
+}
+
+
+.text-inside-fourth{    
+    position: absolute;
+    top: 20px;
+}
+
+
